@@ -105,8 +105,6 @@ gap: 1.5rem;
  
 
 
-
-
 .about-me {
   line-height: 1.5;
   align-content:center ;
@@ -114,10 +112,18 @@ gap: 1.5rem;
   font-weight: bold;
   color: #fff;
   background: #44c89e;
-  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 0;
+
   grid-column-start: 3;
   grid-column-end: span 2;
   
+}
+
+.about-me p {
+  text-align: justify;
 }
 
 
@@ -256,10 +262,18 @@ font-weight: bold;
         direction: relative; 
         font-size: 18px;
         top: 50px;
-       border-right: 0;
+        border-right: 0;
         margin-right: 20px;
         margin-bottom: 20px;
        }
 
 
 
+       @media screen and (max-width:950px) {
+        .about-me h2 {
+          direction: relative; 
+          font-size: 18px;
+          text-align: top;
+          writing-mode: vertical-lr;
+          border-right: 0;
+         }
