@@ -12,6 +12,9 @@ The navgiation links scroll to corresponding sections.
 Includes a responsive layout that adapts to multiple viewpoints.
 Created with accessibility in mind.
 
+# Website
+https://jkmebane.github.io/meportfolio/
+
 # Criteria
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
