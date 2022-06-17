@@ -242,8 +242,8 @@ font-weight: bold;
       height: 150px;
      
     }
-  
-    @media screen and (max-width: 1000px) {
+   
+  @media screen and (max-width: 1000px) {
       .hero h2{
        position: inherit; 
        font-size: 18px;
